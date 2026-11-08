@@ -42,12 +42,12 @@ Widepost 是一个 Windows 桌面小工具，帮你记住一件事：**这个视
 ## 隐私
 
 - **不联网收集任何数据**：没有账号、没有统计、没有遥测
-- 「检查更新」只在你手动点击时才访问 GitHub，平时软件完全离线
+- **启动时会检查一次新版本**（只访问 GitHub 的公开接口，不发送任何个人信息、视频名或路径）；其余时间完全离线
 - 你的视频路径、平台网址、打卡记录只存在你自己的电脑上
 
 ## 遇到"Windows 已保护你的电脑"？
 
-因为软件没有购买代码签名证书（个人开发者，Beta 阶段），Windows SmartScreen 可能会提示。**点「更多信息」→「仍要运行」**即可。软件就一个 170KB 的 exe，不联网、不装驱动、不写注册表。
+因为软件没有购买代码签名证书（个人开发者，Beta 阶段），Windows SmartScreen 可能会提示。**点「更多信息」→「仍要运行」**即可。软件就一个 170KB 的 exe，不装驱动、不写注册表；除了启动时那一次版本检查，其余时间不联网。
 
 ## 反馈问题
 
@@ -99,12 +99,12 @@ Data lives in **`Documents\Widepost\`**, not next to the exe:
 ## Privacy
 
 - **No data is ever collected**: no account, no analytics, no telemetry
-- "Check updates" only contacts GitHub when you click it; the app is otherwise fully offline
+- **A version check runs once at startup** — it only calls GitHub's public API and sends no personal information, video names, or paths; otherwise the app is fully offline
 - Your video paths, platform URLs and tick records never leave your machine
 
 ## "Windows protected your PC"?
 
-The app has no code-signing certificate (solo developer, beta stage), so SmartScreen may warn you. **Click "More info" → "Run anyway".** The whole app is a single 170KB exe — no network access, no drivers, no registry writes.
+The app has no code-signing certificate (solo developer, beta stage), so SmartScreen may warn you. **Click "More info" → "Run anyway".** The whole app is a single 170KB exe — no drivers, no registry writes, and no network access except that one startup version check.
 
 ## Feedback
 
