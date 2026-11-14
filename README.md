@@ -44,12 +44,12 @@ Data lives in **`Documents\Widepost\`**, not next to the exe:
 ## Privacy
 
 - **No data is ever collected**: no account, no analytics, no telemetry
-- **A version check runs once at startup** — it only calls GitHub's public API and sends no personal information, video names, or paths; otherwise the app is fully offline
+- **Two outbound requests, both downloads only**: a version check against GitHub's public API at startup, and — once a licence is activated — a small plain-text revocation list from widepost.dev, at startup and about once per hour. Neither sends your personal information, video names, paths or usage data
 - Your video paths, platform URLs and tick records never leave your machine
 
 ## "Windows protected your PC"?
 
-The app has no code-signing certificate (solo developer, beta stage), so SmartScreen may warn you. **Click "More info" → "Run anyway".** The whole app is a single 170KB exe — no drivers, no registry writes, and no network access except that one startup version check.
+The app has no code-signing certificate (solo developer, beta stage), so SmartScreen may warn you. **Click "More info" → "Run anyway".** The whole app is a single exe under 200KB — no drivers, no registry writes, and no network traffic apart from the two downloads listed under Privacy.
 
 ## Feedback
 
@@ -106,13 +106,13 @@ Widepost 是一个 Windows 桌面小工具，帮你记住一件事：**这个视
 
 ## 隐私
 
-- **不联网收集任何数据**：没有账号、没有统计、没有遥测
-- **启动时会检查一次新版本**（只访问 GitHub 的公开接口，不发送任何个人信息、视频名或路径）；其余时间完全离线
+- **不收集任何数据**：没有账号、没有统计、没有遥测
+- **两处联网，都只是下载**：启动时检查一次新版本（只访问 GitHub 的公开接口）；已激活授权的，还会从 widepost.dev 下载一份很小的撤销清单，启动时一次、之后约每小时一次。两处都不发送任何个人信息、视频名、路径或使用数据
 - 你的视频路径、平台网址、打卡记录只存在你自己的电脑上
 
 ## 遇到"Windows 已保护你的电脑"？
 
-因为软件没有购买代码签名证书（个人开发者，Beta 阶段），Windows SmartScreen 可能会提示。**点「更多信息」→「仍要运行」**即可。软件就一个 170KB 的 exe，不装驱动、不写注册表；除了启动时那一次版本检查，其余时间不联网。
+因为软件没有购买代码签名证书（个人开发者，Beta 阶段），Windows SmartScreen 可能会提示。**点「更多信息」→「仍要运行」**即可。软件就一个不到 200KB 的 exe，不装驱动、不写注册表；联网只有「隐私」一节列的那两处下载。
 
 ## 反馈问题
 
