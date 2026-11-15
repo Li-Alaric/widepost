@@ -21,7 +21,7 @@ All records stay on your own machine. That's it.
 
 ## Quick start (4 steps)
 
-1. **Download** `Widepost.exe` from the [Releases](../../releases/latest) page
+1. **Download** `Widepost.exe` from [widepost.dev/download/Widepost.exe](https://widepost.dev/download/Widepost.exe) — or from the [Releases](../../releases/latest) page
 2. **Put it anywhere** (Desktop or D:\ is fine — do NOT put it in C:\Program Files)
 3. **Double-click to run** — on first launch it asks for a platform name and its upload-page URL; add one or two you actually use
 4. **Choose your video folder** (the "Folder" button) — once the list shows up, start ticking
@@ -82,7 +82,7 @@ Widepost 是一个 Windows 桌面小工具，帮你记住一件事：**这个视
 
 ## 快速上手（4 步）
 
-1. **下载** `Widepost.exe`（在右侧 [Releases](../../releases/latest) 页面）
+1. **下载** `Widepost.exe`：[widepost.dev/download/Widepost.exe](https://widepost.dev/download/Widepost.exe)（也可在右侧 [Releases](../../releases/latest) 页面下载）
 2. **放到任意文件夹**（桌面或 D 盘都行，不要放 C:\Program Files）
 3. **双击运行**——第一次打开会让你填平台名和网址，照提示填一两个你常用的就行
 4. **选视频文件夹**（顶部「切换目录」按钮），列表出来后就能开始打卡
