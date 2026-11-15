@@ -1,6 +1,6 @@
 <a id="en"></a>
 
-# Widepost Beta — Video Upload Tracker
+# Widepost — Video Upload Tracker
 
 English | [中文](#zh)
 
@@ -19,11 +19,9 @@ How it works:
 
 All records stay on your own machine. That's it.
 
-> This is a Beta build. Rough edges are expected — feedback welcome.
-
 ## Quick start (4 steps)
 
-1. **Download** `WidepostBeta.exe` from the [Releases](../../releases/latest) page
+1. **Download** `Widepost.exe` from the [Releases](../../releases/latest) page
 2. **Put it anywhere** (Desktop or D:\ is fine — do NOT put it in C:\Program Files)
 3. **Double-click to run** — on first launch it asks for a platform name and its upload-page URL; add one or two you actually use
 4. **Choose your video folder** (the "Folder" button) — once the list shows up, start ticking
@@ -49,7 +47,7 @@ Data lives in **`Documents\Widepost\`**, not next to the exe:
 
 ## "Windows protected your PC"?
 
-The app has no code-signing certificate (solo developer, beta stage), so SmartScreen may warn you. **Click "More info" → "Run anyway".** The whole app is a single exe under 200KB — no drivers, no registry writes, and no network traffic apart from the two downloads listed under Privacy.
+The app has no code-signing certificate (solo developer), so SmartScreen may warn you. **Click "More info" → "Run anyway".** The whole app is a single 240KB exe — no drivers, no registry writes, and no network traffic apart from the two downloads listed under Privacy.
 
 ## Feedback
 
@@ -57,13 +55,13 @@ Please open an [Issue](../../issues). Tell me what you did and what happened. En
 
 ## License
 
-Free for personal use. No redistribution, modification or commercial use. See [LICENSE](LICENSE).
+Free to download and use with up to two platform links. Pro features require a paid licence. No redistribution or modification. See [LICENSE](LICENSE).
 
 ---
 
 <a id="zh"></a>
 
-# Widepost Beta — 视频上传打卡器
+# Widepost — 视频上传打卡器
 
 中文 | [English](#en)
 
@@ -82,11 +80,9 @@ Widepost 是一个 Windows 桌面小工具，帮你记住一件事：**这个视
 
 所有记录保存在你自己的电脑上，仅此而已。
 
-> 这是 Beta 版，可能还有粗糙的地方，欢迎反馈。
-
 ## 快速上手（4 步）
 
-1. **下载** `WidepostBeta.exe`（在右侧 [Releases](../../releases/latest) 页面）
+1. **下载** `Widepost.exe`（在右侧 [Releases](../../releases/latest) 页面）
 2. **放到任意文件夹**（桌面或 D 盘都行，不要放 C:\Program Files）
 3. **双击运行**——第一次打开会让你填平台名和网址，照提示填一两个你常用的就行
 4. **选视频文件夹**（顶部「切换目录」按钮），列表出来后就能开始打卡
@@ -112,7 +108,7 @@ Widepost 是一个 Windows 桌面小工具，帮你记住一件事：**这个视
 
 ## 遇到"Windows 已保护你的电脑"？
 
-因为软件没有购买代码签名证书（个人开发者，Beta 阶段），Windows SmartScreen 可能会提示。**点「更多信息」→「仍要运行」**即可。软件就一个不到 200KB 的 exe，不装驱动、不写注册表；联网只有「隐私」一节列的那两处下载。
+因为软件没有购买代码签名证书（个人开发者），Windows SmartScreen 可能会提示。**点「更多信息」→「仍要运行」**即可。软件就一个 240KB 的 exe，不装驱动、不写注册表；联网只有「隐私」一节列的那两处下载。
 
 ## 反馈问题
 
@@ -120,4 +116,4 @@ Widepost 是一个 Windows 桌面小工具，帮你记住一件事：**这个视
 
 ## 许可
 
-免费供个人使用，不可再分发、不可修改、不可用于商业用途。详见 [LICENSE](LICENSE)。
+免费下载使用，最多两个平台链接；Pro 功能需要付费授权。不可再分发、不可修改。详见 [LICENSE](LICENSE)。
